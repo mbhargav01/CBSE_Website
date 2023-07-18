@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Fetch-Report-Card</title>
+<style>
+.form{
+    margin: 160px 0px 0px 60px;
+
+}
+#dob{
+    margin: -52px 0px 0px 460px;
+}
+input[type=submit]{
+  background-color: skyblue;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px 0px 320px;
+  cursor: pointer;
+  border-radius:12px;
+}
+input[type=text],input[type=date]{
+  
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px 0px 60px;
+  cursor: pointer;
+  border-radius:12px;
+}
+</style>
+</head>
+<body>
+<div style="border: 2px solid skyblue;">
+    <img src="img/logo.png" alt="logo..." >
+    <h1 style="margin: -90px 0px 50px 120px;">Central Board of Secondary Education</h1>
+    <img src="img/sidelide.JPG" alt="side-png.." style="margin: -160px 0px 20px 62%;">
+</div>
+<h1 style="text-align: center;">Student Examination Marks - Result Declared</h1>
+<form action="report" class="form">
+    <div id="roll">
+    <span style="font-size:larger;font-weight:bold;">Roll No</span>
+    <input type="text" name="rollno" maxlength="10" placeholder="Roll Number" style="font-weight:bold;">
+    </div>
+    <div id="dob">
+    <span style="font-size:Larger;font-weight:bold;">DOB(DD/MM/YYYY)</span>
+    <input type="date" name="dob" placeholder="(DD/MM/YYYY)" style="font-weight:bold;">
+    </div>
+    <br><br>
+    <input type="submit" value="Search Result">
+</form>
+</body>
+</html>

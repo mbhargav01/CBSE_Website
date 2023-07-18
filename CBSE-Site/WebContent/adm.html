@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admission-Form</title>
+</head>
+<style>
+#form{
+	background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    text-align: justify;
+    width: 600px;
+    height: 500px;
+    margin: 40px 0px 0px 350px;
+}
+#size{
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=submit]{
+  background-color: #CCFF33;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px 0px 240px;
+  cursor: pointer;
+  border-radius:12px;
+}
+</style>
+<body>
+<h2 style="text-align:center;font-size:38px;">ADD STUDENT DETAILS HERE</h2>
+<form action="admission" id="form">
+Student_id <input type="number" name="id" id="size"><br>
+Student_name <input type="text" name="name" id="size"><br>
+Contact <input type="number" name="contact" id="size"><br>
+Email-Id <input type="email" name="mail" id="size"><br>
+Address <input type="text" name="address" id="size"><br>
+DOB <input type="date" name="date" id="size"><br>
+Father_name <input type="text" name="fname" id="size"><br>
+Mother_name <input type="text" name="mname" id="size"><br>
+<input type="submit" value="register"><br>
+</form>
+</body>
+</html>

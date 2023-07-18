@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Upload Files</title>
+<style>
+#body{
+background-image: url('img/files.jpg');
+}
+div{
+	font-size: 30px;
+	width: 480px;
+	height: 120px;
+	margin: 2% 0% 0% 15%;
+	padding:60px 0;
+	
+}	
+input[type=submit],input[type=file],input[type=text]{
+  padding: 10px 32px;
+  text-decoration: none;
+  cursor: pointer;
+}	
+</style>
+</head>
+<body id="body">
+<div style="text-align:left;">
+<h1>File Upload</h1>
+<form  action="upload" method="POST" enctype="multipart/form-data">
+File*:   <input type="file" name="myfile"><br>
+Remark*: <input type="text" name="remark"><br>
+<input type="submit" value="Upload"><br>
+<h4>Documents downloading...<a href='download'>click-here</a></h4>
+</form>
+</div>
+</body>
+</html>

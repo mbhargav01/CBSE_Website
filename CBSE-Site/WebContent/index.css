@@ -1,0 +1,22 @@
+
+.box {
+   background-color:skyblue;
+   width:28%;
+   height: 150px;
+   display:inline-block;
+   margin:35px 0;
+   border-radius:6px;
+}
+
+.text {
+   padding:60px 0;
+   color:white;
+   font-weight:bold;
+   text-align:center;
+}
+
+#container {
+   white-space:nowrap;
+   text-align:center;
+   height: 150px;
+}
